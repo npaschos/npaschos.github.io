@@ -61,8 +61,8 @@
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
-  --bs-body-color: #212529;
-  --bs-body-bg: #fff;
+  --bs-body-color: rgb(209, 205, 199);
+  --bs-body-bg: rgb(24, 26, 27);
   --bs-border-width: 1px;
   --bs-border-style: solid;
   --bs-border-color: #dee2e6;
@@ -106,7 +106,7 @@ body {
 
 hr {
   margin: 1rem 0;
-  color: inherit;
+  color: rgb(56, 61, 63);
   border: 0;
   border-top: 1px solid;
   opacity: 0.25;
@@ -246,7 +246,7 @@ sup {
 }
 
 a {
-  color: var(--bs-link-color);
+  color: #d1cdc7;
   text-decoration: none;
 }
 a:hover {
@@ -4079,7 +4079,7 @@ textarea.form-control-lg {
   --bs-card-cap-bg: rgba(0, 0, 0, 0.03);
   --bs-card-cap-color: ;
   --bs-card-height: ;
-  --bs-card-color: ;
+  --bs-card-color: rgb(209, 205, 199);
   --bs-card-bg: #fff;
   --bs-card-img-overlay-padding: 1rem;
   --bs-card-group-margin: 0.75rem;
@@ -6862,7 +6862,7 @@ textarea.form-control-lg {
 }
 
 .border-top {
-  border-top: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color) !important;
+  border-top: var(--bs-border-width) var(--bs-border-style) #383d3f !important;
 }
 
 .border-top-0 {
@@ -10551,7 +10551,7 @@ body {
 }
 
 hr {
-  border-color: #dee2e6;
+  border-color: inherit;
   opacity: 1;
 }
 
@@ -10592,7 +10592,7 @@ blockquote {
   right: 0;
   z-index: 1030;
   border-bottom: 1px solid #dee2e6;
-  background-color: #fff;
+  background-color: rgb(209, 205, 199);
   font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 #mainNav .navbar-brand {
@@ -10616,16 +10616,16 @@ blockquote {
     background: transparent;
   }
   #mainNav .navbar-brand {
-    color: #fff;
+    color: rgb(209, 205, 199);
   }
   #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
     color: rgba(255, 255, 255, 0.8);
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link {
-    color: #fff;
+    color: rgb(209, 205, 199);
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link:hover {
-    color: rgba(255, 255, 255, 0.8);
+    color: rgb(209, 205, 199);
   }
 }
 @media (min-width: 992px) {
@@ -10642,7 +10642,7 @@ blockquote {
     top: -83px;
     transition: transform 0.2s;
     border-bottom: 1px solid white;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgb(209, 205, 199);
   }
   #mainNav.is-fixed .navbar-brand {
     color: #212529;
@@ -10767,7 +10767,7 @@ header.masthead .post-heading .meta a {
 }
 
 .post-preview > a {
-  color: #212529;
+  color: rgb(209, 205, 199);
 }
 .post-preview > a:focus, .post-preview > a:hover {
   text-decoration: none;
@@ -10786,7 +10786,7 @@ header.masthead .post-heading .meta a {
   font-size: 1.125rem;
   font-style: italic;
   margin-top: 0;
-  color: #6c757d;
+  color: rgb(158, 150, 137);
 }
 .post-preview > .post-meta > a {
   text-decoration: none;

@@ -12,16 +12,16 @@
 
 .meta {
     font-size: 1em;
-    color: rgba(0, 0, 0, .4);
+    color: rgb(209, 205, 199)
 }
 
 .meta a {
     text-decoration: none;
-    color: rgba(0, 0, 0, .4);
+    color: rgb(209, 205, 199)
 }
 
 .meta a:hover {
-    color: rgba(0, 0, 0, .87);
+    color: var(--bs-link-hover-color)
 }
 
 .card-img-top {
@@ -39,7 +39,7 @@
 .card-text {
     clear: both;
     margin-top: .5em;
-    color: rgba(0, 0, 0, .68);
+    color: rgb(209, 205, 199);
 }
 
 .card-footer {
