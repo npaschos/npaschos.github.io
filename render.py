@@ -4,7 +4,7 @@ from shutil import rmtree
 from jinja2 import Environment, FileSystemLoader
 
 indir = "templates"
-outdir = "output"
+outdir = "docs"
 outjournal = f"{outdir}/journal"
 
 environment = Environment(loader=FileSystemLoader(indir))
